@@ -1,10 +1,10 @@
 debugger;
 const draw = (x)=>{
     let ans = ''
-    let num = 0
+    let num = x-1
     for (let i = 0; i < x; i++) {
         for (let j = 0; j < x; j++) {
-            if(num != j){
+            if(num == j){
                 ans += "-"
             }
             else{
@@ -14,7 +14,7 @@ const draw = (x)=>{
             
         }
         ans += "\n"
-        num++
+        num--
        
         
     }
