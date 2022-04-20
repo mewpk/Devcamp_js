@@ -1,20 +1,23 @@
 debugger;
 const draw = (x)=>{
     let ans = ''
-    let num = 0
+   
     for (let i = 0; i < x; i++) {
         for (let j = 0; j < x; j++) {
-            if(num != j){
+            if (i < j ) {
                 ans += "-"
-            }
-            else{
+               
+            } else {
                 ans += "*"
             }
+            
+
+            
             
             
         }
         ans += "\n"
-        num++
+        
        
         
     }
