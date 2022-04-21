@@ -10,16 +10,8 @@ const draw = (x)=>{
             } else {
                 ans += "*"
             }
-            
-
-            
-            
-            
         }
-        ans += "\n"
-        
-       
-        
+        ans += "\n"   
     }
     console.log(ans)
 }

@@ -10,13 +10,7 @@ const draw = (x)=>{
             }
             else{
                 ans += "*"
-            }
-            
-                
-            
-    
-            
-            
+            }  
         }
         num--
         ans += "\n"

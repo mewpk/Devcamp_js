@@ -4,25 +4,15 @@ const draw = (x)=>{
     let num = x
     for (let i = 0; i < x; i++) {
         for (let j = 0; j < x; j++) {
-           
             if(num > j){
                 ans += "*"
             }
             else{
                 ans += "-"
-            }
-            
-                
-            
-    
-            
-            
+            }    
         }
         num--
         ans += "\n"
-        
-       
-        
     }
     console.log(ans)
 }
